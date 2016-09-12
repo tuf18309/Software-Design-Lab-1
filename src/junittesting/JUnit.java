@@ -29,7 +29,7 @@ public class JUnit {
     public void testDaysTo3() {
         
         Date d5 = new Date(2010, 12, 24);
-        Date d6 = new Date(2010, 12, 25);
+        Date d6 = new Date(2010, 12, 26);
         
         assertEquals(1, d5.daysTo(d6));
     }
